@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>synonyms</title>
+		<link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico" />
+		<link href="css/styles.css" rel="stylesheet">
+		<meta property="og:title" content="Synonyms">
+		<meta property="og:description" content="Search for synonyms">		
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="main-nav">
+				<div class="logo">
+				  <a href="/"><img src="image/logo.png" alt="логотип"></a>
+				</div>
+			  <h1>Подбор синонимов</h1>
+			</nav>
+			<div class="content">
+				<input type="text" id="wordInput" placeholder="Введите слово...">
+				<button onclick="findSynonyms()">Найти синонимы</button>
+				<div id="result"></div>
+			</div>
+			<div class="footer">
+				Copyright &copy; 2024<script>new Date().getFullYear()>2024&&document.write("-"+new Date().getFullYear());</script>, Aleksandrova. All rights reserved. 
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
